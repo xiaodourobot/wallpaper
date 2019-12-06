@@ -74,6 +74,7 @@ $(function () {
         // var imgWidth = parseInt(screen.width / 2),
         // imgHeight = parseInt(imgWidth * seting.ratio);
         // showImg(decode360Url($(this).data('realurl'), imgWidth, imgHeight, 100));
+        //var realUrl = $(obj).find('img').attr("data-realurl");
         showImg($(this).data('realurl'));
     });
 });
@@ -343,7 +344,7 @@ var imgDom;
 // 全屏展示图片
 // 参数：图片链接
 function showImg(img) {
-    imgDom = $('<img>').attr('id', 'full-img').attr('src', img).appendTo('body');
+    imgDom = $('<img>').attr('id', 'full-img').attr('src', 'https://bz.xiaodoubi.com/img.php?url=' + img).appendTo('body');
 }
 
 // 我的要求并不高，保留这一句版权信息可好？
