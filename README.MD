@@ -11,7 +11,7 @@
 ### 开发计划
 -----
 
-* 解决 https 问题
+* 解决 https 问题 (已解决)[https://bz.xiaodoubi.com/](https://bz.xiaodoubi.com/)
 * 新增搜索功能
 * 移动端兼容
 
@@ -36,7 +36,7 @@
 
 ### 相关链接
 -----
-**在线演示** [http://lab.mkblog.cn/wallpaper/](http://lab.mkblog.cn/wallpaper/)
+**在线演示** [https://bz.xiaodoubi.com/](https://bz.xiaodoubi.com/)
 
 **详细介绍** [http://mkblog.cn/825/](http://mkblog.cn/825/)
 
