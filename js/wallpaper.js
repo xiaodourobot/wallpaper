@@ -150,7 +150,7 @@ function addJigsaw(img, alt){
         imgHeight = parseInt(imgWidth * seting.ratio);
             
         newHtml = '    <div class="Hhalf oneImg" onmouseover="hoverJigsaw(this)">'
-                + '        <img data-original="https://bz.xiaodoubi.com/img.php?url=' + decode360Url(img, imgWidth, imgHeight, 0) + '" alt="' + alt + '" title="关键字：' + alt + '" data-realurl="https://bz.xiaodoubi.com/img.php?url=' + img + '">'
+                + '        <img data-original="https://bz.xiaodoubi.com/img.php?url=' + decode360Url(img, imgWidth, imgHeight, 0) + '" alt="' + alt + '" title="关键字：' + alt + '" data-realurl="' + img + '">'
                 + '    </div>'
                 + '</div>';
         contAdd(jigsaw.halfHtml + newHtml);    //往容器中加入内容
@@ -166,7 +166,7 @@ function addJigsaw(img, alt){
         imgHeight = parseInt(imgWidth * seting.ratio);
             
         newHtml = '<div class="item half oneImg" onmouseover="hoverJigsaw(this)">'
-                + '    <img data-original="https://bz.xiaodoubi.com/img.php?url=' +decode360Url(img, imgWidth, imgHeight, 0)+ '" alt="' + alt + '" title="关键字：' + alt + '" data-realurl="https://bz.xiaodoubi.com/img.php?url=' + img + '">'
+                + '    <img data-original="https://bz.xiaodoubi.com/img.php?url=' +decode360Url(img, imgWidth, imgHeight, 0)+ '" alt="' + alt + '" title="关键字：' + alt + '" data-realurl="' + img + '">'
                 + '</div>';
         contAdd(newHtml);    //往容器中加入内容
         jigsaw.loadBig = true;    // 大张壁纸已被加载
@@ -179,7 +179,7 @@ function addJigsaw(img, alt){
         
     jigsaw.halfHtml = '<div class="item quater">'
             + '    <div class="Hhalf oneImg" onmouseover="hoverJigsaw(this)">'
-            + '        <img data-original="https://bz.xiaodoubi.com/img.php?url=' +decode360Url(img, imgWidth, imgHeight, 0)+ '" alt="' + alt + '" title="关键字：' + alt + '" data-realurl="https://bz.xiaodoubi.com/img.php?url=' + img + '">'
+            + '        <img data-original="https://bz.xiaodoubi.com/img.php?url=' +decode360Url(img, imgWidth, imgHeight, 0)+ '" alt="' + alt + '" title="关键字：' + alt + '" data-realurl="' + img + '">'
             + '    </div>';
     return true;
 }
